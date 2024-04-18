@@ -7,7 +7,6 @@ import time
 import psutil
 import platform
 import logging
-from config import OWNER_ID, BOT_USERNAME
 from config import *
 from COPYRIGHT2 import COPYRIGHT2 as app
 
@@ -31,7 +30,7 @@ start_txt = """<b> 𝐄ᴅɪᴛ•𝐒ᴇᴄᴜʀɪᴛʏ_𝐆ᴜᴀʀᴅ👮‍�
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+          InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/Editsecurity_bot?startgroup=true")
         ],
         [
           InlineKeyboardButton("• ʜᴀɴᴅʟᴇʀ •", callback_data="dil_back")
@@ -48,8 +47,8 @@ async def start(_, msg):
 
 gd_buttons = [              
         [
-            InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=OWNER_ID),
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/Redzone_Networks"),    
+            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/Redzone_Networks"),
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/Redzone_Chats"),    
         ]
         ]
 
