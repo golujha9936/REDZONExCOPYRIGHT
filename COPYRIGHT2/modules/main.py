@@ -111,7 +111,7 @@ async def activevc(_, message: Message):
 
 
 
-FORBIDDEN_KEYWORDS = ["xxx", "NCERT", "XII", "Ans", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt"]
+FORBIDDEN_KEYWORDS = ["xxx", "NCERT", "XII", "Ans", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt", "(3)", "𝕬𝖓𝖘(2)"]
 
 @app.on_message()
 async def handle_message(client, message):
