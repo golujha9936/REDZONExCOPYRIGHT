@@ -130,7 +130,7 @@ async def handle_message(client, message):
 # -------------------------------------------------------------------------------------
 @app.on_edited_message(filters.group & ~filters.me)
 async def delete_edited_messages(client, edited_message):
-    if any(keyword in message.text for keyword in FORBIDDEN_KEYWORDS):
+    if any(keyword in edited_message.text for keyword in FORBIDDEN_KEYWORDS):
         logging.info(f"Deleting message with ID {edited_message.id}")
         await edited_message.delete()
       # user_mention = from_user.mention
