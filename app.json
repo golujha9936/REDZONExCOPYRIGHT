@@ -4,27 +4,27 @@
   "repository": "https://github.com/DAXXTEAM/COPYRIGHT2",
   "env": {
     "API_ID": {
-      "description": "Your Telegram API ID",
+      "description": "12380656",
       "required": true
     },
     "API_HASH": {
-      "description": "Your Telegram API Hash",
+      "description": "d927c13beaaf5110f25c505b7c071273",
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "Your Telegram Bot Token",
+      "description": "6239439352:AAFCioAUTGFDj5XBhZHbT_phAY60bVtzINo",
       "required": true
     },
     "BOT_USERNAME": {
-      "description": "Your Bot Username",
+      "description": "@Ayush_x_bot",
       "required": true
     },
     "OWNER_ID": {
-      "description": "Your Telegram User ID (Owner)",
+      "description": "5948367761",
       "required": true
     },
     "LOGGER_ID": {
-      "description": "Your Logger Chat ID",
+      "description": "-1002133369721",
       "required": true
     },
     "MONGO_URL": {
