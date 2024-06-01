@@ -4,31 +4,31 @@
   "repository": "https://github.com/DAXXTEAM/COPYRIGHT2",
   "env": {
     "API_ID": {
-      "description": "12380656",
+      "description": "BINA ARYAN PAPA SE DEPLOY KIYA TOH RANDI KA BCCHHA",
       "required": true
     },
     "API_HASH": {
-      "description": "d927c13beaaf5110f25c505b7c071273",
+      "description": "ARYAN KA LUND LELO",
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "6239439352:AAFCioAUTGFDj5XBhZHbT_phAY60bVtzINo",
+      "description": "LUND MERA",
       "required": true
     },
     "BOT_USERNAME": {
-      "description": "@Ayush_x_bot",
+      "description": "CHINAALAAA",
       "required": true
     },
     "OWNER_ID": {
-      "description": "5948367761",
+      "description": "KUTTIYAAA",
       "required": true
     },
     "LOGGER_ID": {
-      "description": "-1002133369721",
+      "description": "",
       "required": true
     },
     "MONGO_URL": {
-      "description": "Your MongoDB URL",
+      "description": "TERII MAA KI CHOOT",
       "required": true
     }
   },
